@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title> test1 </title>
+</head>
+<body>
+<form action="" method="get">
+<label for="message"> Message : </label>
+<input type="text" name="message" id="message">
+<input type="submit" value="OK" name="OK">
+</form>
+
+
+<?php
+
+if (isset($_GET["message"])){
+echo "<pre>";
+print_r($_GET ["message"]);
+echo "</pre>";
+}
+
+?>
+
+<form action="" method="post">
+<label for="message"> Message : </label>
+<input type="text" name="message" id="message">
+<input type="submit" value="OK" name="OK">
+</form>
+
+<?php
+
+if (isset($_POST["message"])){
+echo "<pre>";
+print_r($_POST["message"]);
+echo "</pre>";
+}
+
+?>
+
+</body>
+</html>

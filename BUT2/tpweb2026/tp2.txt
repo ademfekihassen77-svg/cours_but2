@@ -1,0 +1,9 @@
+<!doctype>
+<html lang=fr>
+<head>
+<title>TP2</title>
+</head>
+<body>
+<h1>TP2 de WEB je crois</h1>
+</body>
+</html>
